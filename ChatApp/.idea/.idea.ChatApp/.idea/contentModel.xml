@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xiaomi\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xiaomi\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_ChatApp.-324505731.00" t="ExcludeRecursive" />
+    <e p="C:\Users\xiaomi\Desktop\Work\chat-app\ChatApp" t="IncludeFlat">
+      <e p="ChatApp.sln" t="IncludeFlat" />
+      <e p="ChatAppCommandBackend" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatAppCommandBackend.csproj" t="IncludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="Chat" t="Include">
+            <e p="AddUserToChatCommand.cs" t="Include" />
+            <e p="CreateChatCommand.cs" t="Include" />
+            <e p="DeleteUserFromChatCommand.cs" t="Include" />
+          </e>
+          <e p="Command.cs" t="Include" />
+          <e p="Message" t="Include">
+            <e p="CreateMessageCommand.cs" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="CreateUserCommand.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Context" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="MessageController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="DomainEvents" t="Include">
+          <e p="Misc" t="Include">
+            <e p="BaseDomainEvent.cs" t="Include" />
+          </e>
+          <e p="UserEvents" t="Include">
+            <e p="UserCreatedEvent.cs" t="Include" />
+            <e p="UserMainInfoUpdatedEvent.cs" t="Include" />
+            <e p="UserNameUpdatedEvent.cs" t="Include" />
+            <e p="UserNicknameUpdatedEvent.cs" t="Include" />
+            <e p="UserUpdatedEvent.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DTO" t="Include">
+          <e p="UserDto.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20181114204531_Init.cs" t="Include" />
+          <e p="20181114204531_Init.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Chat.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserChat.cs" t="Include" />
+        </e>
+        <e p="mydb.db" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ChatAppCommandBackend.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="RepositoryService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="Contracts" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Chat" t="Include" />
+        <e p="Contracts.csproj" t="IncludeRecursive" />
+        <e p="Event.cs" t="Include" />
+        <e p="Message" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Contracts.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="User" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

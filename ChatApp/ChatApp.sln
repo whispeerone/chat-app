@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppCommandBackend", "ChatAppCommandBackend\ChatAppCommandBackend.csproj", "{4ED5A405-E0BE-447D-9291-7F96CEF1B3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{1FD93082-8D96-427D-80A0-A2FC5007CEF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED5A405-E0BE-447D-9291-7F96CEF1B3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED5A405-E0BE-447D-9291-7F96CEF1B3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED5A405-E0BE-447D-9291-7F96CEF1B3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED5A405-E0BE-447D-9291-7F96CEF1B3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD93082-8D96-427D-80A0-A2FC5007CEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD93082-8D96-427D-80A0-A2FC5007CEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD93082-8D96-427D-80A0-A2FC5007CEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD93082-8D96-427D-80A0-A2FC5007CEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
