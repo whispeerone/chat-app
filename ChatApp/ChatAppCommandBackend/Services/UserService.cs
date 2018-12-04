@@ -10,7 +10,11 @@ namespace ChatAppCommandBackend.Services{
             _repositoryService = repositoryService;
         }
 
-        public UserDto Create(){
+        public UserDto Create(string name, string surname, string email, int age, string nickname){
+            var newUser = User.Create(name, surname, email, age, nickname);
+
+            _repositoryService.Add(newUser);
+            
             return null;
         }
         

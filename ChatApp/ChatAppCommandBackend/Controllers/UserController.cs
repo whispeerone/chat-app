@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ChatAppCommandBackend.Commands.User;
 using ChatAppCommandBackend.Context;
 using ChatAppCommandBackend.Models;
+using ChatAppCommandBackend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatAppCommandBackend.Controllers{
@@ -13,21 +14,18 @@ namespace ChatAppCommandBackend.Controllers{
     [ApiController]
     public class UserController : ControllerBase{
 
-        private AppDbContext _dbContext;
-
-        public UserController(AppDbContext dbContext){
-            _dbContext = dbContext;
+        private readonly UserService _userService;
+        
+        public UserController(UserService userService){
+            _userService = userService;
         }
 
         [HttpPost("createUser")]
         public int CreateUser(CreateUserCommand command){
             
-            User newUser = Models.User.Create(command.Name, command.Surname, command.Email, command.Age, command.Nickname);
-
-            var inserted = _dbContext.Users.Add(newUser);
-            _dbContext.SaveChanges();
+            _userService.Create(command.Name, command.Surname, command.Email, command.Age, command.Nickname);
             
-            return inserted.Entity.Id;
+            return 1;
         }
     }
 }
